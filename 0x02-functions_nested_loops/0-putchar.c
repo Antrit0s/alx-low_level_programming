@@ -10,8 +10,11 @@
 
 int main(void)
 {
-  int _putchar(char c):
-	  return (write(1, &c, 1));
+  char str[] = "_putchar";
+  int ch;
+  for (ch = 0; ch<8; ch++)
+	  _putchar(str[ch]);
+  return (0);
 }
 
 
